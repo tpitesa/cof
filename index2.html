@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Two Pictures and Text Field</title>
+    <title>Koffein</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            box-sizing: border-box;
+            margin: 10px;
         }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .image-container {
+        .container {
             display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
+            align-items: flex-start;
         }
-        .image-container img {
-            width: 50%;
+        .gif-box {
+            margin-right: 20px;
+        }
+        .gif-box img {
+            max-width: 10em;
             height: auto;
+            border: 1px solid #ccc;
+            padding: 0px;
+            background-color: #f9f9f9;
         }
-        .text-field {
-            text-align: center;
-            margin-top: 20px;
+        .text {
+            max-width: 600px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Header Section</h1>
-    </header>
-    <div class="image-container">
-        <img src="cof.gif" alt="Image 1">
-        <img src="cof.gif" alt="Image 2">
-    </div>
-    <div class="text-field">
-        <p>This is a static text paragraph below the images.</p>
+    <h1>Koffein</h1>
+    <div class="container">
+        <div class="gif-box">
+            <img src="cof.gif" alt="Sample GIF">
+        </div>
+        <div class="text">
+            <p>
+                Viele leute trinken Kaffee, um sich bei Bedarf wach zu halten. Das liegt daran, dass er Koffein enthält, das als Stimulans für unser zentrales Nervensystem wirkt. Wussten Sie jedoch, dass Kaffee seit kurzem als potenzielles Material für "natürliche" Elektroden in Lithium-Ionen-Batterien untersucht wird, die zum Beispiel in Elektroautos verwendet werden?
+            </p>
+        </div>
     </div>
 </body>
 </html>
